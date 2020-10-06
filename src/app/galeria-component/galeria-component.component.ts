@@ -5,4 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './galeria-component.component.html',
   styleUrls: ['./galeria-component.component.css'],
 })
-export class GaleriaComponentComponent {}
+export class GaleriaComponentComponent {
+  titulo: string = 'Teste';
+  pictures: string[] = ['']; 
+}
